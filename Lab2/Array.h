@@ -17,7 +17,7 @@ public:
 		array = new T[size];
 		memcpy_s(array, size * sizeof(T), arr.array, arr.size * sizeof(T));
 	}
-
+	
 	~Array()
 	{
 		delete[]array;

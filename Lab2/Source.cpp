@@ -9,7 +9,11 @@ int main()
 {
 	int n;
 	cout << "Enter array length ";
-	cin >> n;
+	if (!(cin >> n))
+	{
+		cout << "Value error";
+		return 1;
+	}
 	Array<int> ar_int(n);
 	Array<float> ar_fl(n);
 	while (true)
@@ -28,11 +32,19 @@ int main()
 				case'1':
 					cout << "enter array elements : \n";
 					for (int i = 0; i < ar_int.Length(); i++)
-						cin >> ar_int[i];
+						if(!(cin >> ar_int[i]))
+						{
+							cout << "Value error";
+							return 1;
+						}	
 					break;
 				case '2':
 					cout << "Enter number: ";
-					cin >> n;
+					if (!(cin >> n))
+					{
+						cout << "Value error";
+						return 1;
+					}
 					cout << "Sum = " << ar_int.Count(n) << endl;
 					break;
 				case '3':
@@ -54,11 +66,19 @@ int main()
 				case'1':
 					cout << "enter array elements : \n";
 					for (int i = 0; i < ar_fl.Length(); i++)
-						cin >> ar_fl[i];
+						if (!(cin >> ar_fl[i]))
+						{
+							cout << "Value error";
+							return 1;
+						}
 					break;
 				case '2':
 					cout << "Enter number: ";
-					cin >> n;
+					if (!(cin >> n))
+					{
+						cout << "Value error";
+						return 1;
+					}
 					cout << "Sum = " << ar_fl.Count(n) << endl;
 					break;
 				case '3':
@@ -89,6 +109,6 @@ template<typename T> void Print(Array<T> ar)
 
 ostream& table(ostream& stream)
 {
-	stream << setw(3) << setfill('_');
+	stream << setw(5) << setfill('_');
 	return stream;
 }
