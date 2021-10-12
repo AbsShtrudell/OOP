@@ -101,7 +101,6 @@ ostream& operator<<(std::ostream& os, String&  st)
 istream& operator>>(istream& os, String& st)
 {
 	memset(st.str, 0, st.size * sizeof(char));
-	os.clear();
 	os.ignore(1, '\n');
 	os.getline(st.str, st.Size(), '\0');
 	return os;
