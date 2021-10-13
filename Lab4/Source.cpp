@@ -14,14 +14,14 @@ int main()
 	int n;
 
 	Businessman* b = nullptr;
-	while (exit)
+	/*while (exit)
 	{
 		cout << "1.Initialize businessman\n2.Initializi traveller\n3.Initialize trader 4.Write them in to file\n5.exit\n";
 
 		input = _getch();
 		switch (input)
 		{
-		case '1':
+		case '1':*/
 			b = new Businessman;
 			cout << "Enter name: ";
 			cin.getline(buff, 20);
@@ -35,11 +35,11 @@ int main()
 			cout << "Enter regadress: ";
 			cin.getline(buff, 20);
 			b->setRegAdress(buff);
-			b.setLicense(456123);
-			b.AddTax((char*)"20.10.2020", 156.54);
-			b.AddTax((char*)"20.11.2020", 156.54);
-			b.AddTax((char*)"20.12.2020", 156.54);
-			b.writeToFile((char*)"persons.xml");
+			b->setLicense(456123);
+			b->AddTax((char*)"20.10.2020", 156.54);
+			b->AddTax((char*)"20.11.2020", 156.54);
+			b->AddTax((char*)"20.12.2020", 156.54);
+			b->writeToFile((char*)"persons.xml");
 			Traveller t;
 			t.addBorderData((char*)"poland", (char*)"20.09.2012");
 			t.addBorderData((char*)"germany", (char*)"20.07.2015");
@@ -50,6 +50,6 @@ int main()
 			tr.addOfferData((char*)"20.10.2012", 1024);
 			tr.writeToFile((char*)"persons.xml");
 			tr.writeToFile((char*)"person.xml");
-		}
-	}
+	/*	}
+	}*/
 }
