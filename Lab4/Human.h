@@ -1,6 +1,7 @@
 #pragma once
 #include <cstringt.h>
 #include <vector>
+#include "tinyxml2.h"
 
 class Human
 {
@@ -8,7 +9,6 @@ private:
 	char Name[10];
 	char Surename[10];
 	int yearBirth;
-	static std::vector<Human*> AllHumans;
 public:
 	Human();
 	~Human();
@@ -20,8 +20,6 @@ public:
 	int getYearBirth();
 	void setYearBirth(int);
 
-	virtual void AddHuman();
-	virtual void RemoveHuman();
 	virtual void writeToFile(char* path) = 0;
 };
 

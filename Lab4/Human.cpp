@@ -40,18 +40,3 @@ void Human::setYearBirth(int year)
 {
 	yearBirth = year;
 }
-
-void Human::AddHuman()
-{
-	AllHumans.push_back(this);
-}
-
-void Human::RemoveHuman()
-{
-	for (int i = 0; i < AllHumans.size(); i++)
-		if (this == AllHumans[i])
-		{
-			AllHumans.erase(AllHumans.begin()+i);
-			break;
-		}
-}

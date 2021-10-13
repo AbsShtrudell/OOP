@@ -1,0 +1,176 @@
+<persons>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+    <person type="traveller">
+        <name/>
+        <surename/>
+        <year>0</year>
+        <passport>1</passport>
+        <borders>
+            <border>
+                <date>20.09.2012</date>
+                <country>poland</country>
+            </border>
+            <border>
+                <date>20.07.2015</date>
+                <country>germany</country>
+            </border>
+        </borders>
+    </person>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+    <person type="traveller">
+        <name/>
+        <surename/>
+        <year>0</year>
+        <passport>1</passport>
+        <borders>
+            <border>
+                <date>20.09.2012</date>
+                <country>poland</country>
+            </border>
+            <border>
+                <date>20.07.2015</date>
+                <country>germany</country>
+            </border>
+        </borders>
+    </person>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+    <person type="traveller">
+        <name/>
+        <surename/>
+        <year>0</year>
+        <passport>1</passport>
+        <borders>
+            <border>
+                <date>20.09.2012</date>
+                <country>poland</country>
+            </border>
+            <border>
+                <date>20.07.2015</date>
+                <country>germany</country>
+            </border>
+        </borders>
+    </person>
+    <person type="businessman">
+        <name>alexey</name>
+        <surename>gluhovsky</surename>
+        <year>1985</year>
+        <license>456123</license>
+        <reg_addres>ul kolotushkina</reg_addres>
+        <taxes>
+            <tax>
+                <date>20.10.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.11.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+            <tax>
+                <date>20.12.2020</date>
+                <amount>156.53999</amount>
+            </tax>
+        </taxes>
+    </person>
+</persons>
