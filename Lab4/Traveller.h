@@ -7,7 +7,7 @@ private:
 	struct Border
 	{
 		char country[20];
-		char date[20];
+		int date;
 	};
 	std::vector<Border> borderData;
 public:
@@ -16,7 +16,7 @@ public:
 
 	int getPassportID();
 	void setPassportID(int _passportId);
-	void addBorderData(char* _country, char* _date);
+	void addBorderData(char* _country, int _date);
 	std::vector<Border> getBorderData()
 	{
 		return borderData;

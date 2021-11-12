@@ -2,8 +2,8 @@
 
 Human::Human()
 {
-	ZeroMemory(Name, 10);
-	ZeroMemory(Surename, 10);
+	ZeroMemory(Name, 20);
+	ZeroMemory(Surename, 20);
 	yearBirth = 0;
 }
 
@@ -18,7 +18,7 @@ char* Human::getName()
 
 void Human::setName(char* _name)
 {
-	strcpy_s(Name,10, _name);
+	strcpy_s(Name,20, _name);
 }
 
 char* Human::getSurename()
@@ -28,7 +28,7 @@ char* Human::getSurename()
 
 void Human::setSurename(char* _surename)
 {
-	strcpy_s(Surename, 10, _surename);
+	strcpy_s(Surename, 20, _surename);
 }
 
 int Human::getYearBirth()

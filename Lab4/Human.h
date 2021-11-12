@@ -6,8 +6,8 @@
 class Human
 {
 private:
-	char Name[10];
-	char Surename[10];
+	char Name[20];
+	char Surename[20];
 	int yearBirth;
 public:
 	Human();

@@ -19,10 +19,10 @@ void Traveller::setPassportID(int _passportId)
 	passportID = abs(_passportId);
 }
 
-void Traveller::addBorderData(char* _country, char* _date)
+void Traveller::addBorderData(char* _country, int _date)
 {
 	Border t;
-	strcpy_s(t.date, 20, _date);
+	t.date=_date;
 	strcpy_s(t.country, 20, _country);
 	borderData.push_back(t);
 }
